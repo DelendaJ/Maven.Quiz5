@@ -22,17 +22,16 @@ public class StringEvaluator {
         Set<String> blah = new HashSet<>();
         Set<String> blah2 = new HashSet<>();
         Set<String> commons = new HashSet<>();
-        getAllSubstrings(string1, blah);
-        getAllSubstrings(blah, string1);
-        String[] blah2 = getAllSubstrings(string2);
+       ;
 
-        if (blah == blah2) {
-            return blah;
-        } else {
-            return blah;
+        for (String s : blah) {
+            return null;
+
         }
-    }
 
+        return null;
+
+    }
 
 
     public static String getLargestCommonSubstring(String string1, String string2) {
