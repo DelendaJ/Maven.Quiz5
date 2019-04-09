@@ -1,21 +1,26 @@
 package rocks.zipcode.io.quiz4.objectorientation;
 
+import rocks.zipcode.io.quiz4.fundamentals.PalindromeEvaluator;
+
 /**
  * @author leon on 18/12/2018.
  */
-public class PalindromeObject {
+public class PalindromeObject extends PalindromeEvaluator {
+    private String string;
+
     public PalindromeObject(String input) {
+        this.string = input;
     }
 
     public String[] getAllPalindromes(){
-        return null;
+        return getAllPalindromes(string);
     }
 
     public Boolean isPalindrome(){
-        return null;
+        return isPalindrome(string);
     }
 
     public String reverseString(){
-        return null;
+        return reverseString(string);
     }
 }
